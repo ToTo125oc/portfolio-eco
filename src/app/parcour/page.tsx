@@ -33,7 +33,7 @@ export default function MonParcours() {
                   <span className="absolute flex items-center justify-center w-8 h-8 bg-green-600 rounded-full -start-4 ring-4 ring-gray-900 ">
                   </span>
                   <h3 className="font-medium leading-tight">2021 / 2023 - BAC STI2D</h3>
-                  <p className="text-sm">C++ pour l'iot</p>
+                  <p className="text-sm">C++ pour l&apos;iot</p>
               </li>
           </ol>
 

@@ -9,7 +9,7 @@ export default function Home() {
         <Image className="rounded-full" src={face_co} width="150" height="150" alt="Pas d'image"/>
         <h2>Développeur Full-Stack </h2>
         <p>Hello, je suis Thomas</p>
-        <p>Actuellement en alternace à l'iut de Lens pour IDEE PROD</p>
+        <p>Actuellement en alternace à l&apos;iut de Lens pour IDEE PROD</p>
       </div>
     </div>
   );
