@@ -20,7 +20,7 @@ export default function MonParcours() {
               <li className="mb-10 ms-6">
                   <span className="absolute flex items-center justify-center w-8 h-8 bg-green-400 rounded-full -start-4 ring-4 ring-gray-900 ">
                   </span>
-                  <h3 className="font-medium leading-tight">été 2024 - IDEE PROD</h3>
+                  <h3 className="font-medium leading-tight">été 2023 - IDEE PROD</h3>
                   <p className="text-sm">Flutter - NestJS</p>
               </li>
               <li className="mb-10 ms-6">
