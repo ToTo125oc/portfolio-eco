@@ -17,6 +17,5 @@ export default function NavBar() {
       <Link href="/parcour" className="flex text-gray-300 hover:text-white"><HiAcademicCap />Mon parcours</Link>
     </li>
   </ul>
-</nav>
-        )
+</nav>)
 }
