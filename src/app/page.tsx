@@ -1,10 +1,16 @@
 import Image from "next/image"
 import face_co from "./images/face_co.svg"
-import { FaRust, FaJava, FaVuejs, FaPython, FaWindows, FaLinux, FaPhp, FaLaravel, FaDocker } from "react-icons/fa";
-import { SiTypescript, SiNuxtdotjs, SiMacos, SiNestjs, SiKubernetes } from "react-icons/si";
-import { RiTailwindCssLine } from "react-icons/ri";
 import DividerTailWind from "./composants/dividerTailWind";
-
+import dynamic from 'next/dynamic';
+const FaRust =  dynamic(() => import('react-icons/fa').then(mod => mod.FaRust));
+const FaJava =  dynamic(() => import('react-icons/fa').then(mod => mod.FaJava));
+const FaVuejs =  dynamic(() => import('react-icons/fa').then(mod => mod.FaVuejs));
+const FaPhp =  dynamic(() => import('react-icons/fa').then(mod => mod.FaPhp));
+const FaLaravel =  dynamic(() => import('react-icons/fa').then(mod => mod.FaLaravel))
+const SiTypescript =  dynamic(() => import('react-icons/si').then(mod => mod.SiTypescript))
+const SiNuxtdotjs = dynamic(() => import('react-icons/si').then(mod => mod.SiNuxtdotjs))
+const SiNestjs=  dynamic(() => import('react-icons/si').then(mod => mod.SiNestjs))
+const RiTailwindCssLine= dynamic(() => import('react-icons/ri').then(mod => mod.RiTailwindCssLine))
 
 export default function Home() {
   
@@ -23,7 +29,6 @@ export default function Home() {
         <FaRust size={56}/>
         <SiTypescript size={56}/>
         <FaJava size={56}/>
-        <FaPython size={56}/>
         <FaPhp size={56}/>
       </div>
       <DividerTailWind title="Mes Frameworks"/>
@@ -34,17 +39,6 @@ export default function Home() {
         <FaLaravel size={56}/>
         <RiTailwindCssLine size={56}/>
       </div>
-      <DividerTailWind title="Mes systèmes"/>
-        <div className="flex mb-7 w-full flex-wrap justify-around">
-          <SiMacos size={56}/>
-          <FaWindows size={56}/>
-          <FaLinux size={56}/>
-        </div>
-      <DividerTailWind title="Ma partie dev-ops"/>
-        <div className="flex mb-2 w-full flex-wrap justify-around">
-        <FaDocker size={56}/>
-        <SiKubernetes size={56}/>
-        </div>
         </div>
     </div>
   );
