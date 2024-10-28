@@ -18,3 +18,24 @@ body {
     text-wrap: balance;
   }
 }
+
+.projet-card-article{
+  @apply border-4 border-green-800/100 bg-gray-900 rounded-2xl w-full max-w-sm h-96;
+}
+
+.projet-card-image{
+  @apply w-full h-52 object-cover rounded-2xl  mb-2 p-3;
+}
+
+.font-style{
+  @apply text-xl font-bold;
+}
+
+
+.parcour{
+  @apply absolute flex items-center justify-center w-8 h-8 rounded-full -left-4 ring-4 ring-gray-900;
+}
+
+.text-parcour{
+  @apply text-xl font-bold leading-tight
+}

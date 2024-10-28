@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import dynamic from "next/dynamic";
+import Transition from "./transition";
 
 const NavBar = dynamic(()=>import('./navBar'))
 const Footer = dynamic(()=>import('./footer'))
@@ -20,8 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <NavBar/>
-        <div className="p-1 bg-gradient-to-b from-green-800 to-transparent"></div>
-        {children}
+        <Transition>{children}</Transition>
         <Footer/>
       </body>
     </html>
