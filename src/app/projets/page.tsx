@@ -12,7 +12,7 @@ export default function Projets() {
           <article className="projet-card-article">
               <Image src={mararthon} alt="Pas d'image"  className="projet-card-image"/>
               <h3 className="font-style pl-3">Marathon du web</h3>
-              <p className="pl-3 pr-3">Sprint de 48h pour réaliser une application d'événementiels en Laravel / Blade</p>
+              <p className="pl-3 pr-3">Sprint de 48h pour réaliser une application d&apos;événementiels en Laravel / Blade</p>
             </article>
           <article className="projet-card-article">
             <Image src={raytracer} alt="Pas d'image" className="projet-card-image"/>
