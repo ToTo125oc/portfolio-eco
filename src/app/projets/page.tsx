@@ -8,11 +8,11 @@ import flatcraft from '../images/flatcraft.webp'
 export default function Projets() {
   return (
     <div className="flex flex-col items-center">
-      <section className="mt-12 p-1 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <section className="mt-28 p-1 grid grid-cols-1 md:grid-cols-2 gap-4">
           <article className="projet-card-article">
               <Image src={mararthon} alt="Pas d'image"  className="projet-card-image"/>
               <h3 className="font-style pl-3">Marathon du web</h3>
-              <p className="pl-3 pr-3">Sprint de 48h pour réaliser un application événementiels en Laravel / Blade</p>
+              <p className="pl-3 pr-3">Sprint de 48h pour réaliser une application d'événementiels en Laravel / Blade</p>
             </article>
           <article className="projet-card-article">
             <Image src={raytracer} alt="Pas d'image" className="projet-card-image"/>

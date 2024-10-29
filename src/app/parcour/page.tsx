@@ -1,7 +1,7 @@
 export default function MonParcours() {
     return (
       <div className="flex flex-col items-center">
-        <div className="mt-12">
+        <div className="mt-28 mr-12 ml-12">
           <ol className="relative  border-s  border-gray-700 text-gray-400">                  
               <li className="mb-10 ms-6">            
                   <span className="parcour bg-green-200 ">

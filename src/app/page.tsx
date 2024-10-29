@@ -16,7 +16,7 @@ export default function Home() {
   
   return (
     <div className="flex flex-col items-center mr-2 ml-2">
-      <div className="bg-gray-900 mt-12 mr-2 ml-2 p-4 rounded-2xl border-4 border-green-800/100 flex flex-col items-center w-full max-w-md">
+      <div className="bg-gray-900 mt-28 mr-2 ml-2 p-4 rounded-2xl border-4 border-green-800/100 flex flex-col items-center w-full max-w-md">
         <Image priority className="rounded-full" src={face_co} width="150" height="150" alt="Pas d'image"/>
         <h2 className="text-2xl font-bold">Développeur Full-Stack </h2>
         <p className="text-xl ">Hello, je suis Thomas</p>
